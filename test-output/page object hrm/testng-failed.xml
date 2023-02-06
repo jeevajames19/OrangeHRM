@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [page object hrm]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="orange hrm(failed)">
+    <classes>
+      <class name="pom.Testhrm">
+        <methods>
+          <include name="loginhrm"/>
+          <include name="admin"/>
+          <include name="initialize_Driver"/>
+        </methods>
+      </class> <!-- pom.Testhrm -->
+    </classes>
+  </test> <!-- orange hrm(failed) -->
+</suite> <!-- Failed suite [page object hrm] -->
